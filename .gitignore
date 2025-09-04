@@ -1,0 +1,28 @@
+# Node
+node_modules/
+
+# Build outputs
+dist/
+.next/
+out/
+build/
+
+# Environment files
+.env
+.env.local
+.env.production
+.env.development
+
+# Logs
+*.log
+logs/
+
+# OS
+Thumbs.db
+.DS_Store
+
+# Vercel
+.vercel/
+
+# IDE
+.vscode/
