@@ -2,27 +2,104 @@
 node_modules/
 
 # Build outputs
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
+
+# Build outputs
 dist/
 .next/
 out/
 build/
+coverage/
+
+# Vite
+.vite/
 
 # Environment files
 .env
-.env.local
-.env.production
-.env.development
+.env.*
 
 # Logs
-*.log
-logs/
+.env.development
+
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
 
 # OS
+# Logs
+*.log
+ehthumbs.db
+Icon?
+Desktop.ini
+
+# Vercel
+logs/
+
+# IDE & Editor
+.vscode/
+.idea/
+.history/
+.sw?
+*.sublime-workspace
+*.sublime-project
+
+# Mac
+.AppleDouble
+.LSOverride
+
+# Test & coverage
+coverage/
+*.lcov
+
+# Misc
+*.tgz
+.npm/
+.cache/
+.eslintcache
+.parcel-cache/
+.turbo/
+.output/
+.tmp/
+tmp/
+.sass-cache/
+.nuxt/
+.expo/
+.expo-shared/
+.firebase/
+.cypress/
+.nyc_output/
+.next/
+.vercel/
+.netlify/
+.serverless/
+.storybook/
+storybook-static/
+
+# Local database
+*.sqlite
+*.sqlite3
+*.db
+*.db-journal
+*.local
+
+# Images built by Docker
+*.tar
+
+# Windows
+*.stackdump
+*.bak
+*.tmp
+*.orig
+
+# VS Code Server (remote)
+.vscode-server/
+.vscode-test/
 Thumbs.db
 .DS_Store
 
-# Vercel
-.vercel/
 
 # IDE
 .vscode/
